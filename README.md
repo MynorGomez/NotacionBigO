@@ -17,5 +17,3 @@ El **árbol AVL** mantiene el balance mediante rotaciones, garantizando una comp
 La **tabla hash (set)** fue la estructura más eficiente en términos de **tiempo de búsqueda**, validando su complejidad teórica **O(1) promedio**.
 
 No obstante, si se prioriza el **consumo de memoria**, el **arreglo ordenado** representa la mejor alternativa, ya que ofrece búsquedas en **O(log n)** con un uso significativamente menor de memoria.
-
-En este benchmark, los árboles balanceados no superaron al hash ni al arreglo ordenado, y el BST mostró el peor rendimiento relativo, además de no garantizar estabilidad en el peor caso.
